@@ -150,3 +150,9 @@ Route::set('default', '(<controller>(/<action>(/<id>)))')
 		'controller' => 'welcome',
 		'action'     => 'index',
 	));
+	
+	Route::set('default', '(<controller>(/<action>(/<id>)))')
+	->defaults(array(
+		'controller' => 'user',
+		'action'     => 'index',
+	));
