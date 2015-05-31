@@ -423,3 +423,85 @@
 #8 /var/www/html/Login/system/classes/Kohana/Request.php(997): Kohana_Request_Client->execute(Object(Request))
 #9 /var/www/html/Login/index.php(118): Kohana_Request->execute()
 #10 {main} in /var/www/html/Login/application/views/template.php:1
+2015-05-31 07:42:53 --- EMERGENCY: ErrorException [ 8 ]: Undefined variable: title ~ APPPATH/views/user/show.php [ 1 ] in /var/www/html/Login/application/views/user/show.php:1
+2015-05-31 07:42:53 --- DEBUG: #0 /var/www/html/Login/application/views/user/show.php(1): Kohana_Core::error_handler(8, 'Undefined varia...', '/var/www/html/L...', 1, Array)
+#1 /var/www/html/Login/system/classes/Kohana/View.php(62): include('/var/www/html/L...')
+#2 /var/www/html/Login/system/classes/Kohana/View.php(359): Kohana_View::capture('/var/www/html/L...', Array)
+#3 /var/www/html/Login/system/classes/Kohana/View.php(236): Kohana_View->render()
+#4 /var/www/html/Login/system/classes/Kohana/Response.php(160): Kohana_View->__toString()
+#5 /var/www/html/Login/application/classes/Controller/User.php(147): Kohana_Response->body(Object(View))
+#6 /var/www/html/Login/system/classes/Kohana/Controller.php(84): Controller_User->action_show()
+#7 [internal function]: Kohana_Controller->execute()
+#8 /var/www/html/Login/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#9 /var/www/html/Login/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#10 /var/www/html/Login/system/classes/Kohana/Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#11 /var/www/html/Login/index.php(118): Kohana_Request->execute()
+#12 {main} in /var/www/html/Login/application/views/user/show.php:1
+2015-05-31 07:42:53 --- EMERGENCY: ErrorException [ 8 ]: Undefined variable: header ~ APPPATH/views/template.php [ 1 ] in /var/www/html/Login/application/views/template.php:1
+2015-05-31 07:42:53 --- DEBUG: #0 /var/www/html/Login/application/views/template.php(1): Kohana_Core::error_handler(8, 'Undefined varia...', '/var/www/html/L...', 1, Array)
+#1 /var/www/html/Login/system/classes/Kohana/View.php(62): include('/var/www/html/L...')
+#2 /var/www/html/Login/system/classes/Kohana/View.php(359): Kohana_View::capture('/var/www/html/L...', Array)
+#3 /var/www/html/Login/system/classes/Kohana/Controller/Template.php(44): Kohana_View->render()
+#4 /var/www/html/Login/system/classes/Kohana/Controller.php(87): Kohana_Controller_Template->after()
+#5 [internal function]: Kohana_Controller->execute()
+#6 /var/www/html/Login/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#7 /var/www/html/Login/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 /var/www/html/Login/system/classes/Kohana/Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#9 /var/www/html/Login/index.php(118): Kohana_Request->execute()
+#10 {main} in /var/www/html/Login/application/views/template.php:1
+2015-05-31 07:43:25 --- EMERGENCY: ErrorException [ 8 ]: Undefined variable: title ~ APPPATH/views/user/show.php [ 1 ] in /var/www/html/Login/application/views/user/show.php:1
+2015-05-31 07:43:25 --- DEBUG: #0 /var/www/html/Login/application/views/user/show.php(1): Kohana_Core::error_handler(8, 'Undefined varia...', '/var/www/html/L...', 1, Array)
+#1 /var/www/html/Login/system/classes/Kohana/View.php(62): include('/var/www/html/L...')
+#2 /var/www/html/Login/system/classes/Kohana/View.php(359): Kohana_View::capture('/var/www/html/L...', Array)
+#3 /var/www/html/Login/system/classes/Kohana/View.php(236): Kohana_View->render()
+#4 /var/www/html/Login/system/classes/Kohana/Response.php(160): Kohana_View->__toString()
+#5 /var/www/html/Login/application/classes/Controller/User.php(150): Kohana_Response->body(Object(View))
+#6 /var/www/html/Login/system/classes/Kohana/Controller.php(84): Controller_User->action_show()
+#7 [internal function]: Kohana_Controller->execute()
+#8 /var/www/html/Login/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#9 /var/www/html/Login/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#10 /var/www/html/Login/system/classes/Kohana/Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#11 /var/www/html/Login/index.php(118): Kohana_Request->execute()
+#12 {main} in /var/www/html/Login/application/views/user/show.php:1
+2015-05-31 07:55:00 --- EMERGENCY: ErrorException [ 8 ]: Undefined variable: title ~ APPPATH/views/user/show.php [ 1 ] in /var/www/html/Login/application/views/user/show.php:1
+2015-05-31 07:55:00 --- DEBUG: #0 /var/www/html/Login/application/views/user/show.php(1): Kohana_Core::error_handler(8, 'Undefined varia...', '/var/www/html/L...', 1, Array)
+#1 /var/www/html/Login/system/classes/Kohana/View.php(62): include('/var/www/html/L...')
+#2 /var/www/html/Login/system/classes/Kohana/View.php(359): Kohana_View::capture('/var/www/html/L...', Array)
+#3 /var/www/html/Login/system/classes/Kohana/View.php(236): Kohana_View->render()
+#4 /var/www/html/Login/system/classes/Kohana/Response.php(160): Kohana_View->__toString()
+#5 /var/www/html/Login/application/classes/Controller/User.php(151): Kohana_Response->body(Object(View))
+#6 /var/www/html/Login/system/classes/Kohana/Controller.php(84): Controller_User->action_show()
+#7 [internal function]: Kohana_Controller->execute()
+#8 /var/www/html/Login/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#9 /var/www/html/Login/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#10 /var/www/html/Login/system/classes/Kohana/Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#11 /var/www/html/Login/index.php(118): Kohana_Request->execute()
+#12 {main} in /var/www/html/Login/application/views/user/show.php:1
+2015-05-31 07:55:28 --- EMERGENCY: ErrorException [ 1 ]: Class 'Model_user' not found ~ MODPATH/orm/classes/Kohana/ORM.php [ 46 ] in file:line
+2015-05-31 07:55:28 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2015-05-31 07:55:41 --- EMERGENCY: ErrorException [ 1 ]: Class 'Model_user' not found ~ MODPATH/orm/classes/Kohana/ORM.php [ 46 ] in file:line
+2015-05-31 07:55:41 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2015-05-31 08:01:36 --- EMERGENCY: ErrorException [ 1 ]: Class 'Model_user' not found ~ MODPATH/orm/classes/Kohana/ORM.php [ 46 ] in file:line
+2015-05-31 08:01:36 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2015-05-31 08:29:54 --- EMERGENCY: ErrorException [ 8 ]: Undefined variable: users ~ APPPATH/views/user/show.php [ 37 ] in /var/www/html/Login/application/views/user/show.php:37
+2015-05-31 08:29:54 --- DEBUG: #0 /var/www/html/Login/application/views/user/show.php(37): Kohana_Core::error_handler(8, 'Undefined varia...', '/var/www/html/L...', 37, Array)
+#1 /var/www/html/Login/system/classes/Kohana/View.php(62): include('/var/www/html/L...')
+#2 /var/www/html/Login/system/classes/Kohana/View.php(359): Kohana_View::capture('/var/www/html/L...', Array)
+#3 /var/www/html/Login/application/views/user/page.php(3): Kohana_View->render()
+#4 /var/www/html/Login/system/classes/Kohana/View.php(62): include('/var/www/html/L...')
+#5 /var/www/html/Login/system/classes/Kohana/View.php(359): Kohana_View::capture('/var/www/html/L...', Array)
+#6 /var/www/html/Login/system/classes/Kohana/View.php(236): Kohana_View->render()
+#7 /var/www/html/Login/application/views/template.php(3): Kohana_View->__toString()
+#8 /var/www/html/Login/system/classes/Kohana/View.php(62): include('/var/www/html/L...')
+#9 /var/www/html/Login/system/classes/Kohana/View.php(359): Kohana_View::capture('/var/www/html/L...', Array)
+#10 /var/www/html/Login/system/classes/Kohana/Controller/Template.php(44): Kohana_View->render()
+#11 /var/www/html/Login/system/classes/Kohana/Controller.php(87): Kohana_Controller_Template->after()
+#12 [internal function]: Kohana_Controller->execute()
+#13 /var/www/html/Login/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#14 /var/www/html/Login/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#15 /var/www/html/Login/system/classes/Kohana/Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#16 /var/www/html/Login/index.php(118): Kohana_Request->execute()
+#17 {main} in /var/www/html/Login/application/views/user/show.php:37

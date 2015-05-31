@@ -13,7 +13,7 @@ class Controller_User extends Controller_Template {
 		//$this->template->sidebar = View::factory('sidebar')->bind('sidebar', $sidebar);
 			
 			
-		$this->template->content = View::factory('user/info')->bind('user', $user);
+		$this->template->content = View::factory('user/page');
 		
 		// Load the user information
 		$user = Auth::instance()->get_user();
@@ -100,9 +100,7 @@ class Controller_User extends Controller_Template {
 	public function action_logout(){
 		// Log user out
 		Auth::instance()->logout();
-		
-		// Redirect to login page
-		//Request::current()->redirect('user/login');
+
 		$this->redirect('user/login');
 	}
 	
@@ -110,11 +108,11 @@ class Controller_User extends Controller_Template {
 	public function action_delete(){
 		$id = $this->request->param('id');
 			
-		$the_user = ORM::factory('user', $id);
+		$the_user = ORM::factory('User', $id);
 		$the_user->delete();
 		
-		// Redirect to create page
-		$this->redirect('user/create');
+		// Redirect to show
+		$this->redirect('user/show');
 	}
 	
 		public function action_page(){
@@ -141,11 +139,14 @@ class Controller_User extends Controller_Template {
 	
 		public function action_show(){
 			
+			$this->template->header = View::factory('header')->bind('header', $header);
+			$this->template->footer = View::factory('footer')->bind('footer', $footer);	
+			$this->template->sidebar = View::factory('sidebar')->bind('sidebar', $sidebar);	
 
 		    $users = ORM::factory('User')->find_all(); 	
 			$view = View::Factory('user/show')->set('users',$users);
-			$this->response->body($view);
 			
+			$this->template->content = $this->response->body($view);
 			
 			
 		}

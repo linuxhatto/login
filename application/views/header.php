@@ -43,4 +43,4 @@ License: You must have a valid license purchased only from themeforest(the above
 <link href="<?=URL::Base()?>static/css/custom.css" rel="stylesheet" type="text/css"/>
 <!-- END THEME STYLES -->
 <link rel="shortcut icon" href="favicon.ico"/>
-</head>    
+</head>
